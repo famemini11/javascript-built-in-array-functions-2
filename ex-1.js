@@ -373,4 +373,5 @@ const bills = [
   },
 ];
 
-// Start coding here
+const newBills =bills.reduce((sum,bill) => sum + bill.total,0)
+console.log(newBills);
